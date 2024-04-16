@@ -22,26 +22,27 @@ Finally, the analysis and dashboard will be utilized by the Subject Matter Exper
 - Step 2 : Converted the nested dictionary present in the dataset into a flat list.
 - Step 3 : Assigned the data to a 'Dataframe' using pandas.
 
-![1](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/48225e67-8ddb-49ac-b883-5d5316acf4a7)
+![1](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/cf218aff-b588-407d-8a07-ea7b903b7048)
 
 - Step 4 : We observed that the 'dismissal' column is not giving us a clear understanding regarding whether the batsman is out/notout.Hence, we added a column to the above dataframe mentioning whether the batsmann is out/notout based on whether the dismissal column contains a value or not.
 
-![snap 2](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/2311227c-6b8f-4096-81e1-a06756422ec6)
+![snap 2](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/2e02d38b-8e05-49b1-bd5f-a299d5526dc1)
 
 - Step 5 : Dropped the 'dismissal' column as it is not more required for our analysis. 
 - Step 6 : We observed some unwanted characters in the "batsmanName" column. Hence, we replaced the unwanted character with blank.
 
-![snap 3](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/15b31cb8-e5f2-4354-8230-fb58af9250c7)
+![snap 3](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/a93b941d-f63c-445a-a7d2-8826cdf23c46)
 - Step 7 : Going ahead, we realised that the 'batting summary' datset and 'match result' dataset has no common column between them through which we can perform the join operations on them to futher carry out our analysis. 
 - Step 8 : We decided to create a common column 'match_id' in the 'batting summary' dataset using the match column in the same dataset.
 - Step 9 : We created a dictionary using the 'team1','team2' and 'match_id' columns in the 'match_result' dataset and utilized the dictionary to map the 'match_id' to the 'match' column in the 'batting summary' dataset thereby creating a 'match_id' column in the 'batting summary' dataset as well.
-![snap 4](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/c0835204-8b50-4729-8489-3cc3778e223c)
 
-![snap 5](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/f904dbd2-6d4f-4020-a96d-8c067615117f)
+![snap 4](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/3ba8643e-8b2e-4602-bb89-1c0a4fecf8a7)
 
-![snap 6](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/92db4217-c509-4621-80e0-f9179b378116)
+![snap 5](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/cce45331-abc0-4544-b0ea-419e344c9af3)
 
-![snap 7](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/89f488e5-5345-402d-9978-c41c428f8a72)
+![snap 6](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/00925d32-c6bf-4ed7-becd-3321e9d0978c)
+
+![snap 7](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/22e2a959-4330-4e08-81e2-6f71bcb0b3b9)
 
 - Step 10 : Being satisfied with the final dataset after performing cleaning and transformation on the dataset, we have created a csv file of it which we will use to load the data into the power bi. 
 - Step 11 : Performed the similar kind of steps of loading, cleaning and transforming the dataset to get a well organised data that could help us with our analysis ahead. And converted all of them into the CSV format files.
@@ -59,23 +60,23 @@ Finally, the analysis and dashboard will be utilized by the Subject Matter Exper
 
 1. Openers:
 
-![snap 8](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/4fe815dd-384c-4c24-9187-b7cdb2d805fb)
+![snap 8](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/06220db9-58d2-41a5-8f1f-8d1ca5280203)
 
 2. Anchors/Middle Order:
 
-![snap 9](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/9e21ed12-b2f8-41fb-91fe-0b1da47a9f0b)
+![snap 9](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/2dc89aa0-466f-49fb-b961-e58219ac1ffb)
 
 3. Finisher/Lower Order Anchor:
 
-![snap 10](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/630539e6-cbb1-464e-995d-9aa58c4ae28e)
+![snap 10](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/4c2a294e-a9f4-44e8-b990-5527bd2ee479)
 
 4. All-ROunders/ Lower Order:
 
-![snap 11](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/c85982c8-50fe-4aa7-be07-5d0c597beb7d)
+![snap 11](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/bffd32c3-97ce-4b78-9e51-5a095a5f6c36)
 
 5. Specialist fast bowlers:
 
-![snap 12](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/933c94a1-c667-4e09-8d5c-be92b3d88982)
+![snap 12](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/389cefaa-6923-4727-bc13-ec92c57b530e)
 
 - Step 14 : Used this criteria to design the report and which contains 'Player Analysis' and the "final 11" dashboard that could help the SME to select his 11 players.
 
@@ -83,10 +84,10 @@ Finally, the analysis and dashboard will be utilized by the Subject Matter Exper
 
 # Snapshot of Dashboard (Power BI DESKTOP)
 
-![snap 13](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/49436aa0-c3e4-4b80-9e71-0d5b87f09098)
+![snap 13](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/f78c579d-ee0a-40ef-b6a3-6184da0fed56)
 
  
-![snap 14](https://github.com/VBS-03/Power_Bi_Projects/assets/162421729/3e3cce86-17c1-41fc-a19d-9bbbce2990d9)
+![snap 14](https://github.com/VBS-03/T20-Cricket-World-Cup-Analysis/assets/162421729/db7e2e24-4358-4fbb-b38b-a90e0cb38026)
 
 # Insights
 
