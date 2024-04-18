@@ -1,6 +1,6 @@
 # T20 World Cup Data Analysis
 
-### Dashboard Link :
+### Dashboard Link : https://app.powerbi.com/reportEmbed?reportId=0f54cdc9-bb53-424e-85e6-bc4ad89780a9&autoAuth=true&ctid=da6b8e5b-b111-4ee7-8826-33808fed6472
 
 ## Problem Statement
 
